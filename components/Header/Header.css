@@ -1,0 +1,27 @@
+
+.header-container{
+    margin: auto;
+    margin-top: 20px;
+    width: 992px;
+    height: 522px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, #96E9FB 0%, #ABECD6 100%);
+    padding-left: 256px;
+    padding-top: 100px;
+}
+.text{
+    display: inline;
+    margin-left: 126.5px;
+    
+    
+}
+.text button{
+    width: 221px;
+    height: 62px;
+    padding: 15px 40px 15px 40px;
+    background-color: blue;
+    border-radius: 10px;
+    border: none;
+}
+
+

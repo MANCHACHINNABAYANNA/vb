@@ -1,0 +1,58 @@
+.navigation{
+    
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 100px;
+    
+}
+.navigation-logo img {
+    width: 30px;
+}
+.navigation-search{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: blue;
+}
+.navigation-search li svg {
+    height: 20px;
+    margin-left: 10px;
+    
+}
+.navigation-search li {
+    height: 30px; 
+    list-style: none;
+    cursor: pointer;
+}
+.navigation-cart {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.navigation-cart svg {
+    width: 20px;
+    
+}
+.navigation-search svg :hover{
+    transform: translate(0px, -5px);
+}
+.count, .count1{
+    margin-top: -1px;
+}
+.count1,.heart{
+    margin-left: -15px;
+}
+
+.navigation-menu li {
+    height: 30px; 
+    list-style: none;
+    display: inline;
+    margin: 0 5px;
+    cursor: pointer;
+}
+.navigation-menu li:hover,.navigation-search li:hover {
+    text-decoration: underline;
+    color: blue;
+}
